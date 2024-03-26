@@ -4,7 +4,7 @@ import openai
 
 engine = pyttsx3.init()
 recognizer = sr.Recognizer()
-api_key = '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'
+api_key = '[your api key]'
 
 def ask_openai(question):
     client = openai.API(api_key=api_key)  
